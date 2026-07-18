@@ -32,5 +32,6 @@ import calendar as c
 print(c.month(2026,7))
 
 # Using as and from and import 
-from calendar import month as m
+from calendar import month as m , calendar as c
 print(m(2026,7))
+print(c(2026))
