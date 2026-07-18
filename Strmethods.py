@@ -1,0 +1,15 @@
+s = input("Enter a String\n")
+
+print("In LowerCase:",s.lower())
+print("In UpperCase:",s.upper())
+print("First Letter Caps:",s.capitalize())
+print("Tile type",s.title())
+print("Swapped case:",s.swapcase())
+ 
+print(s.capitalize()[0].islower())
+print(s.capitalize()[0].isupper())
+print(s.title().istitle())
+print('9'.isdigit(),'S'.isalpha(),'45gh'.isalnum())
+print(s.startswith(s[0]),s.endswith(s[-1]))
+print(s.strip(s[0]),"\n",s.lstrip(s[0]),"\n",s.rstrip(s[0]))
+print(s.count('a'),s.index('b'),s.replace('a','c')) 
